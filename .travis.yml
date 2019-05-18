@@ -1,0 +1,14 @@
+dist: xenial
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+script: python tests/unit_tests.py
+notifications:
+  email:
+    recipients:
+      - rukhadze.ag@phystech.edu
+      #- akhtyamovpavel@gmail.com
+    on_success: always
+    on_failure: always
