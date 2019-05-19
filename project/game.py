@@ -1,6 +1,7 @@
 import Units
 import team
 import actions
+import pickle
 
 
 class SGame:
